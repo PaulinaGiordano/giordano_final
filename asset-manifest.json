@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/giordano_final/static/css/main.3ae32135.css",
+    "main.js": "/giordano_final/static/js/main.7fe823fc.js",
+    "static/js/453.75e505da.chunk.js": "/giordano_final/static/js/453.75e505da.chunk.js",
+    "index.html": "/giordano_final/index.html",
+    "main.3ae32135.css.map": "/giordano_final/static/css/main.3ae32135.css.map",
+    "main.7fe823fc.js.map": "/giordano_final/static/js/main.7fe823fc.js.map",
+    "453.75e505da.chunk.js.map": "/giordano_final/static/js/453.75e505da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ae32135.css",
+    "static/js/main.7fe823fc.js"
+  ]
+}
