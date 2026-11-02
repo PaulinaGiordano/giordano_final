@@ -1,38 +1,135 @@
-.App {
+/* ===== General ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+}
+
+.contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* ===== Menú ===== */
+.menu {
+  margin-bottom: 25px;
+}
+
+.menu a {
+  margin-right: 15px;
+  color: #2a6496;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Listado de productos ===== */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.producto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.producto h3 {
+  font-size: 16px;
+  margin: 12px 0 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.precio {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2a6496;
+  margin: 0 0 12px;
 }
 
-.App-link {
-  color: #61dafb;
+/* ===== Botones ===== */
+.boton {
+  display: inline-block;
+  background-color: #2a6496;
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boton:hover {
+  background-color: #1d4a70;
+}
+
+/* ===== Formularios ===== */
+.formulario {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 25px;
+  max-width: 400px;
+}
+
+.campo {
+  margin-bottom: 18px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.campo input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.campo input:focus {
+  outline: none;
+  border-color: #2a6496;
+}
+
+/* ===== Detalle ===== */
+.detalle img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.detalle ul {
+  list-style: none;
+  padding: 0;
+}
+
+.detalle li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
 }

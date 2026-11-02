@@ -1,0 +1,58 @@
+const productos = [
+  {
+    id: 1,
+    nombre: "Remera básica",
+    descripcion: "Remera de algodón, varios colores",
+    precio: 12000,
+    stock: 15,
+    codigo: "REM-001",
+    imagen: process.env.PUBLIC_URL + "/img/remera.jpg",
+  },
+  {
+    id: 2,
+    nombre: "Jean clásico",
+    descripcion: "Jean azul corte recto",
+    precio: 35000,
+    stock: 8,
+    codigo: "JEA-001",
+    imagen: process.env.PUBLIC_URL + "/img/jeans.jpg",
+  },
+  {
+    id: 3,
+    nombre: "Buzo con capucha",
+    descripcion: "Buzo de frisa, abrigado",
+    precio: 28000,
+    stock: 10,
+    codigo: "BUZ-001",
+    imagen: process.env.PUBLIC_URL + "/img/buzo.jpg",
+  },
+  {
+    id: 4,
+    nombre: "Zapatillas urbanas",
+    descripcion: "Zapatillas cómodas para el día a día",
+    precio: 150000,
+    stock: 5,
+    codigo: "ZAP-001",
+    imagen: process.env.PUBLIC_URL + "/img/zapatilla.jpg",
+  },
+  {
+    id: 5,
+    nombre: "Gorra",
+    descripcion: "Gorra ajustable",
+    precio: 9000,
+    stock: 20,
+    codigo: "GOR-001",
+    imagen: process.env.PUBLIC_URL + "/img/gorra.jpg",
+  },
+  {
+    id: 6,
+    nombre: "Campera de abrigo",
+    descripcion: "Campera impermeable",
+    precio: 72000,
+    stock: 3,
+    codigo: "CAM-001",
+    imagen: process.env.PUBLIC_URL + "/img/campera.jpg",
+  },
+];
+
+export default productos;
